@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/hl_resurgence/hl_ex/hecu_turret/px388/filbleu"
+//        "$bumpmap" "models/hl_resurgence/hl_ex/hecu_turret/metal01_1"
+//	"$envmap" "env_cubemap"
+//        "$envmapcontrast" 1.8
+//        "$surfaceprop" "metal"
+//	"%keywords" "getalife"
+}

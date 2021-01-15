@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/hl_resurgence/hl_ex/hecu_hl2/beret_sheet"
+	"$basealphaenvmapmask" 1
+	"$envmap" "env_cubemap"	
+//	"$halflambert" 1
+}

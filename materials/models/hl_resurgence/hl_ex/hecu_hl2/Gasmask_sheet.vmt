@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/hl_resurgence/hl_ex/hecu_hl2/gasmask_sheet"
+	"$bumpmap" "models/hl_resurgence/hl_ex/hecu_hl2/gasmask_normal"
+	//"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$selfillum" 1
+	"$surfaceprop" "flesh"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[0.25 0.5 1]"
+}
