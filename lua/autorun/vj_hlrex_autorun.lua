@@ -27,14 +27,14 @@ if VJExists == true then
 	AddCSLuaFile(AutorunFile)
 	VJ.AddAddonProperty(AddonName,AddonType)
 else
-	if (CLIENT) then
+	if CLIENT then
 		chat.AddText(Color(0,200,200),PublicAddonName,
 		Color(0,255,0)," was unable to install, you are missing ",
 		Color(255,100,0),"VJ Base!")
 	end
 	timer.Simple(1,function()
 		if not VJF then
-			if (CLIENT) then
+			if CLIENT then
 				VJF = vgui.Create("DFrame")
 				VJF:SetTitle("ERROR!")
 				VJF:SetSize(790,560)
@@ -49,7 +49,7 @@ else
 				VJURL:Dock(FILL)
 				VJURL:SetAllowLua(true)
 				VJURL:OpenURL("https://sites.google.com/site/vrejgaming/vjbasemissing")
-			elseif (SERVER) then
+			elseif SERVER then
 				timer.Create("VJBASEMissing",5,0,function() print("VJ Base is Missing! Download it from the workshop!") end)
 			end
 		end
