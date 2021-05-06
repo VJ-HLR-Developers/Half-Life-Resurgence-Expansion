@@ -71,7 +71,7 @@ function ENT:OnPlayCreateSound(sdData, sdFile)
 end
 ---------------------------------------------------------------------------------------------------------------------------------------------
 function ENT:CustomOnAlert(ent)
-	if math.random(1,3) == 1 && self.HECU_UsingDefault == true then
+	if math.random(1,3) == 1 && self.HECU_UsingDefaultSounds == true then
 		if ent.IsVJBaseSNPC_Creature == true then
 			self:PlaySoundSystem("Alert", {"vj_hlr/hl1_npc/hgrunt/gr_alert9.wav","vj_hlr/hl1_npc/hgrunt/gr_alert10.wav"})
 			return
